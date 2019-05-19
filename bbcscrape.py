@@ -33,7 +33,6 @@ newsItems = []
 for item in rawNewsItems:
 	fullUrl = makeUrl(item['href'])
 	newsItems.append(NewsItem(item.string.strip(), fullUrl));
-	print(item['href'])
 choiceExit = 'exit'
 continueChoice = ''
 choiceIndex = 'notachoice'
